@@ -1,3 +1,5 @@
+/* General --------------------------------------------------*/
+
 * {
     box-sizing: border-box;
 }
@@ -5,17 +7,22 @@
 html {
     font-family: Arial, Times, serif;
     font-size: 18px;
+    background-color: #282828;
 }
 
 .contenedor {
     max-width: 1080px;
     margin: 0 auto;
     border: 1px solid red;
+    background-color: white;
 }
 
 .descripcion {
+    /*El tipo de letra de las descripciones de todas las areas*/
     font-family: "Lato", sans-serif;
 }
+
+/*HEADER -----------------------------------------------------*/
 
 header {
     max-width: 1080px;
@@ -56,3 +63,5 @@ h2 {
 #telefono {
     padding: 10px 0px;
 }
+
+/*MAIN -----------------------------------------------------*/
