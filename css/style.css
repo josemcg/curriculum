@@ -74,18 +74,10 @@ h3 {
     width: 21%;
 }
 
-.apartados {
-    display: flex;
-    margin-top: 40px;
-    margin-left: 80px;
-    margin-right: 100px;
-}
-
-.apartados article {
-    width: 79%;
-    border-bottom: 4px solid black;
-    padding-bottom: 30px;
-    line-height: 23px;
+h4 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 #contacto {
@@ -105,5 +97,42 @@ h3 {
 
 /*MAIN -----------------------------------------------------*/
 
-main .apartados {
+.apartados {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.apartados .conjunto {
+    width: 79%;
+    border-bottom: 4px solid black;
+    padding-bottom: 30px;
+    line-height: 23px;
+}
+
+.conjunto article {
+    margin-bottom: 25px;
+}
+
+.descripcion {
+    color: #7b7b7b;
+}
+
+.puntoSeparador {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.barraSeparadora {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.duracion {
+    padding-bottom: 10px;
+}
+
+.empresa {
+    font-size: 1.1em;
 }
