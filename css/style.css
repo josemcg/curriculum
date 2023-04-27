@@ -10,6 +10,11 @@ html {
     background-color: #282828;
 }
 
+.test {
+    /* para ver como se coloca cada caja, luego elimino la clase */
+    outline: dotted 1px red;
+}
+
 .contenedor {
     max-width: 1080px;
     margin: 0 auto;
@@ -51,15 +56,36 @@ header {
 
 h1 {
     font-weight: bold;
-    font-size: 42px;
+    font-size: 2.25em;
 }
 
 h2 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.75em;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #4285f4;
+}
+
+h3 {
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 21%;
+}
+
+.apartados {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.apartados article {
+    width: 79%;
+    border-bottom: 4px solid black;
+    padding-bottom: 30px;
+    line-height: 23px;
 }
 
 #contacto {
@@ -78,3 +104,6 @@ h2 {
 }
 
 /*MAIN -----------------------------------------------------*/
+
+main .apartados {
+}
