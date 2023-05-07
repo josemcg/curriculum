@@ -18,7 +18,7 @@ html {
 .contenedor {
     max-width: 1080px;
     margin: 0 auto;
-    border: 1px solid red;
+    
     background-color: white;
 }
 
@@ -33,11 +33,14 @@ a:hover {
 .descripcion {
     /*El tipo de letra de las descripciones de todas las areas*/
     font-family: "Lato", sans-serif;
+    color: #7b7b7b;
 }
 
 .separador {
     width: 25px;
     border-bottom: 4px solid black;
+    position: absolute;
+    bottom: 0;
 }
 
 /*HEADER -----------------------------------------------------*/
@@ -46,7 +49,7 @@ header {
     max-width: 1080px;
     display: flex;
     gap: 30px;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 #datos {
@@ -68,10 +71,8 @@ h2 {
 }
 
 h3 {
-    width: 20%;
     font-weight: bold;
     font-size: 1.5em;
-    width: 21%;
 }
 
 h4 {
@@ -115,13 +116,13 @@ h4 {
     margin-bottom: 25px;
 }
 
-.descripcion {
-    color: #7b7b7b;
-}
-
 .puntoSeparador {
     padding-left: 15px;
     padding-right: 15px;
+}
+.titulos {
+    width: 21%;
+    position: relative;
 }
 
 .barraSeparadora {
